@@ -1,7 +1,3 @@
-.main-image img {
-    width:500px;
-    height:500px;
-}
 
 body{
     display: flex;
@@ -37,4 +33,17 @@ header{
 ul {
     display: flex;
     gap: 24px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px;
+    gap: 90px;
+}
+
+.main-image img {
+    border-radius: 5%;
+    border: solid white;
 }
