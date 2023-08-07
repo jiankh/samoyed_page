@@ -2,3 +2,39 @@
     width:500px;
     height:500px;
 }
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+header, .content, .footer {
+    background-color: #1f2937;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+}
+li {
+    list-style-type: none; 
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: 900;
+
+}
+ul {
+    display: flex;
+    gap: 24px;
+}
