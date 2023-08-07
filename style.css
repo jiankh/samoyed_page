@@ -79,3 +79,22 @@ ul {
 .card h3 {
     margin:0;
 }
+
+.testimonials {
+    background-color: #e5e7eb;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonials h1 {
+    font-style: italic;
+    font-weight: normal;
+}
+
+.testimonials h3 {
+    font-size: 1.2rem;
+    font-weight: 900;
+    margin-left: auto;
+}
+
