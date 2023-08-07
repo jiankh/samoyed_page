@@ -98,3 +98,49 @@ ul {
     margin-left: auto;
 }
 
+.signup {
+    background-color: #3882f6;
+    color: white;
+    margin: 100px;
+    padding: 10px 50px;
+    border-radius: 10px;
+}
+
+.signup-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 80px;
+}
+
+.signup-text  h2, h4 { 
+    margin: 0px;
+}
+
+.signup-button-inner {
+    border-radius: 10px;
+    padding: 10px 40px;
+    background-color: #3882f6;
+    border: solid white;
+    color: white;
+    
+}
+
+.content .signup-button-inner {
+    border: none
+}
+
+.signup-button-inner:hover {
+    background-color: #8eb7f8;
+    cursor: pointer;
+}
+.signup-button-inner:active {
+    transform: translateY(4px)
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
