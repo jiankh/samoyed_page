@@ -26,6 +26,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 10px 100px;
+    flex: 1;
 }
 
 .logo {
@@ -50,11 +51,20 @@ ul {
     align-items: center;
     padding: 50px 100px;
     gap: 90px;
+    flex: 1;
 }
 
 .main-image img {
     border-radius: 5%;
     border: solid white;
+    max-width: 100%;
+    max-height: auto;
+    width: 800px;
+    height: 500px;
+}
+
+.main-info {
+    max-width: 50%;
 }
 
 .information {
@@ -62,6 +72,7 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex: 1;
 }
 
 .info-cards {
@@ -91,6 +102,7 @@ ul {
     padding: 100px;
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 .testimonials h1 {
@@ -110,6 +122,7 @@ ul {
     margin: 100px;
     padding: 10px 50px;
     border-radius: 10px;
+    flex: 1;
 }
 
 .signup-box {
