@@ -60,7 +60,7 @@ ul {
     max-width: 100%;
     max-height: auto;
     width: 800px;
-    height: 500px;
+    height: auto;
 }
 
 .main-info {
@@ -130,6 +130,7 @@ ul {
     align-items: center;
     justify-content: space-between;
     padding: 50px 80px;
+    gap: 50px;
 }
 
 .signup-text  h2, h4 { 
